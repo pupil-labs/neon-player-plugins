@@ -36,7 +36,7 @@ Neon Player allows you to extend its functionality using Python plugins. This re
 
 | Screenshot | Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
 |--- |-------:	|--------------------------------------: |--------:	|--------------------:	|--- |
-| ![external camera plugin screenshot](./assets/external_camera.webp)	| External camera plugin. Loads an external camera video and presents it in sync with the scene. | @pupil-labs | 6.0.13 (24/07/26) | - | MIT |
+| ![external camera plugin screenshot](./assets/external_camera.webp)	| External camera plugin. Loads an external camera video and presents it in sync with the scene. | [@pupil-labs](https://github.com/pupil-labs) | 6.0.13 (24/07/26) | - | MIT |
 
 **Detailed Description:**
 
@@ -49,7 +49,7 @@ We will publish a tutorial on how to generate the `.time` file while recording. 
 
 | Screenshot | Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
 |--- |-------:	|--------------------------------------: |--------:	|--------------------:    |--- |
-| ![external camera manual sync plugin screenshot](./assets/external_camera_manual_sync.webp)    | External camera manual sync plugin. Loads an external camera video (.mp4) and presents a slider to manually sync frames. | @pupil-labs | 6.0.13 (24/07/26) | - | MIT |
+| ![external camera manual sync plugin screenshot](./assets/external_camera_manual_sync.webp)    | External camera manual sync plugin. Loads an external camera video (.mp4) and presents a slider to manually sync frames. | [@pupil-labs](https://github.com/pupil-labs) | 6.0.13 (24/07/26) | - | MIT |
 
 **Detailed Description:**
 
@@ -61,7 +61,7 @@ Designed for external cameras like GoPros that have been recorded with out synci
 
 | Screenshot | Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
 |--- |-------:	|--------------------------------------: |--------:	|--------------------:	|--- |
-| ![transcribe plugin screenshot](./assets/transcribe.webp) | Audio Transcription & Subtitles plugin. Leverages Whisper and pyannote.audio for speech recognition and speaker diarization. | @pupil-labs | 6.0.13 (24/07/26) | - | MIT |
+| ![transcribe plugin screenshot](./assets/transcribe.webp) | Audio Transcription & Subtitles plugin. Leverages Whisper and pyannote.audio for speech recognition and speaker diarization. | [@pupil-labs](https://github.com/pupil-labs) | 6.0.13 (24/07/26) | - | MIT |
 
 **Detailed Description:**
 
@@ -73,7 +73,7 @@ This plugin also allows event creation on word boundaries (similar to the [Audio
 
 | Screenshot | Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
 |--- |-------:	|--------------------------------------: |--------:	|--------------------:	|--- |
-| ![gps plugin screenshot](./assets/gps.webp)	| GPS tracking and visualization plugin. Loads GPS data from Garmin/Polar devices or the Comapanion Device. | @pupil-labs | 6.0.13 (24/07/26) | - | MIT |
+| ![gps plugin screenshot](./assets/gps.webp)	| GPS tracking and visualization plugin. Loads GPS data from Garmin/Polar devices or the Comapanion Device. | [@pupil-labs](https://github.com/pupil-labs) | 6.0.13 (24/07/26) | - | MIT |
 
 **Detailed Description:**
 
@@ -85,7 +85,7 @@ Simply drop it in the recording folder. If you used our [gps-alpha-lab tool](htt
 
 | Screenshot | Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
 |--- |-------:	|--------------------------------------: |--------:	|--------------------:	|--- |
-| ![cloud-events plugin screenshot](./assets/cloud_events.webp)	| Cloud events plugin, allows to pull, push and compare events. | @pupil-labs | 6.0.13 (24/07/26) | - | MIT |
+| ![cloud-events plugin screenshot](./assets/cloud_events.webp)	| Cloud events plugin, allows to pull, push and compare events. | [@pupil-labs](https://github.com/pupil-labs) | 6.0.13 (24/07/26) | - | MIT |
 
 **Detailed Description:**
 
