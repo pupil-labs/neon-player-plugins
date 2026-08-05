@@ -15,3 +15,4 @@
 - [ ] (For new plugins) I have added a screenshot to the `assets/` folder.
 - [ ] (For new plugins) I have added a detailed description below the table in the README.
 - [ ] (For new plugins) I have specified the license in the README table.
+- [ ] I have tested it with the latest version of Neon Player and it works as expected.

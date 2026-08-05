@@ -1,8 +1,8 @@
 # Neon Player Plugins 
 
-A curated list of awesome plugins for [Neon Player](https://docs.pupil-labs.com/neon/neon-player/) by [Pupil Labs](https://pupil-labs.com/) and the community.
+A curated list of plugins for [Neon Player](https://docs.pupil-labs.com/neon/neon-player/) by [Pupil Labs](https://pupil-labs.com/) and the community.
 
-Neon Player allows you to extend its functionality using Python plugins. This repository serves as a central hub to discover, share, and collaborate on these plugins.
+Neon Player allows you to extend its functionality through Python plugins. This repository serves as a central hub to discover, share, and collaborate on these plugins.
 
 > [!TIP]
 > Check out how to [install them](https://docs.pupil-labs.com/neon/neon-player/plugin-api/) or [create them](https://docs.pupil-labs.com/neon/neon-player/develop-your-own-plugin/).
@@ -11,7 +11,7 @@ Neon Player allows you to extend its functionality using Python plugins. This re
 - [Neon Player Repo & API](https://github.com/pupil-labs/neon-player-beta?tab=readme-ov-file)
 
 > [!WARNING]
-> Each individual plugin listed or hosted in this repository may be subject to its own individual license, as specified by its author in the plugin's source code, documentation, or the `README.md` table. The plugins are given as-is, and Pupil Labs is not responsible for their functionality or support. 
+> Each individual plugin listed in this repository may be subject to its own individual license, as specified by its author in the plugin's source code, documentation, or the `README.md` table. The plugins are given as-is, and Pupil Labs is not responsible for their functionality or support. 
 
 ## Contents
 
@@ -32,7 +32,7 @@ Neon Player allows you to extend its functionality using Python plugins. This re
 
 ## Video & External Cameras
 
-### [external_camera.py](./external_camera.py)
+### [external_camera.py](https://github.com/pupil-labs/npp-external-camera)
 
 | Screenshot | Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
 |--- |-------:	|--------------------------------------: |--------:	|--------------------:	|--- |
@@ -43,9 +43,9 @@ Neon Player allows you to extend its functionality using Python plugins. This re
 Requires a `.mov` format video with `.time` file that includes timestamps for each frame. Shows the external view in a Picture-in-Picture (PiP) window that can be resized, rotated, moved around, or changed in transparency. Also adds frame scrubbing capabilities, accessible with shortcuts (`Shift + H` / `Shift + L`) and the posibility to dock it to the main window to see it side-by-side with the scene camera.
 
 **Notes:**
-We will publish a tutorial on how to generate the `.time` file while recording. For now, you can use the [external_camera_manual_sync.py](./external_camera_manual_sync.py) plugin to manually sync your external camera video and generate the `.time` file.
+We will publish a tutorial on how to generate the `.time` file while recording. For now, you can use the [external_camera_manual_sync.py](https://github.com/pupil-labs/npp-external-camera-manual-sync) plugin to manually sync your external camera video and generate the `.time` file.
 
-### [external_camera_manual_sync.py](./external_camera_manual_sync.py)
+### [external_camera_manual_sync.py](https://github.com/pupil-labs/npp-external-camera-manual-sync)
 
 | Screenshot | Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
 |--- |-------:	|--------------------------------------: |--------:	|--------------------:    |--- |
@@ -57,7 +57,7 @@ Designed for external cameras like GoPros that have been recorded with out synci
 
 ## Audio Processing
 
-### [transcribe.py](./transcribe.py)
+### [transcribe.py](https://github.com/pupil-labs/npp-transcribe)
 
 | Screenshot | Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
 |--- |-------:	|--------------------------------------: |--------:	|--------------------:	|--- |
@@ -69,7 +69,7 @@ This plugin also allows event creation on word boundaries (similar to the [Audio
 
 ## Data Integrations & Biometrics
 
-### [gps.py](./gps.py)
+### [gps.py](https://github.com/pupil-labs/gps-alpha-lab/tree/main/npp-gps)
 
 | Screenshot | Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
 |--- |-------:	|--------------------------------------: |--------:	|--------------------:	|--- |
@@ -81,7 +81,7 @@ Simply drop it in the recording folder. If you used our [gps-alpha-lab tool](htt
 
 ## Cloud & Synchronization
 
-### [cloud_events.py](./cloud_events.py)
+### [cloud_events.py](https://github.com/pupil-labs/npp-cloud-events)
 
 | Screenshot | Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
 |--- |-------:	|--------------------------------------: |--------:	|--------------------:	|--- |

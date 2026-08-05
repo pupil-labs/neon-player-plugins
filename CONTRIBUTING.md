@@ -4,10 +4,9 @@ First off, thank you for considering contributing to Neon Player Plugins! It's p
 
 ## How to add a plugin
 
-If you have developed a plugin for Neon Player and want to share it with the community, you have two options:
+This repository serves **only as a directory** of plugins. We do not host plugin source code directly in this repository.
 
-1. **Host it here:** You can submit a Pull Request adding your plugin script(s) to the repository and update the `README.md` with its details.
-2. **Host it externally:** If you prefer to maintain your plugin in your own repository (or if it is a **proprietary/closed-source** plugin), you can simply add a link to it in the `README.md`.
+If you have developed a plugin for Neon Player and want to share it with the community, you must host it externally (in its own dedicated repository) and then submit a Pull Request to add a link to it in our `README.md`. 
 
 ### Adding your plugin to the README
 
@@ -23,11 +22,11 @@ To add your plugin to the list, please follow these steps:
 Please use the following format when adding to the `README.md`:
 
 ```markdown
-### [Plugin Name](./plugin_file.py) <!-- or link to external repo/website -->
+### [Plugin Name](https://github.com/yourusername/your-plugin-repo)
 
-| Screenshot | Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
+| Screenshot | Brief description / Comments | Author | Date/Version last tested | Link | License |
 |--- |--- |--- |--- |--- |--- |
-| ![plugin screenshot](./assets/your_screenshot.webp) | Brief description of what your plugin does. | @yourusername | 6.0.x (DD/MM/YY) | - | MIT (or Proprietary) |
+| ![plugin screenshot](./assets/your_screenshot.webp) | Brief description of what your plugin does. | @yourusername | 6.0.x (DD/MM/YY) | [Repo Link](https://github.com/yourusername/your-plugin-repo) | MIT (or Proprietary) |
 
 **Detailed Description:**
 Add a longer description here. You can explain how to use the plugin, its features, any specific requirements, or how to purchase/access it if it is proprietary.
