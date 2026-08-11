@@ -18,6 +18,7 @@ Neon Player allows you to extend its functionality through Python plugins. This 
 - [Video & External Cameras](#video--external-cameras)
   - [external_camera.py](#external_camerapy)
   - [external_camera_manual_sync.py](#external_camera_manual_syncpy)
+  - [depth_estimation.py](#depth_estimationpy)
 - [Audio Processing](#audio-processing)
   - [transcribe.py](#transcribepy)
 - [Data Integrations & Biometrics](#data-integrations--biometrics)
@@ -55,7 +56,7 @@ We will publish a tutorial on how to generate the `.time` file while recording. 
 
 Designed for external cameras like GoPros that have been recorded with out syncing. Use the slider to match the external frame with the scene camera. Once matched, press "Generate .time" to create a compatible synced format that can be seamlessly used with the `external_camera.py` plugin.
 
-### [depth-estimation.py](https://github.com/pupil-labs/npp-depth-estimation)
+### [depth_estimation.py](https://github.com/pupil-labs/npp-depth-estimation)
 
 | Screenshot | Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
 |--- |-------:	|--------------------------------------: |--------:	|--------------------:    |--- |
