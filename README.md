@@ -59,7 +59,7 @@ Designed for external cameras like GoPros that have been recorded with out synci
 
 | Screenshot | Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
 |--- |-------:	|--------------------------------------: |--------:	|--------------------:    |--- |
-| ![depth estimation plugin screenshot](./assets/depth_estimation.webp)    | Depth Estimation plugin. Loads a Neon recording and estimates depth using Depth Anything V3 models, specifically the optimized implementation provided by the [Awesome Depth Anything 3](https://github.com/Aedelon/awesome-depth-anything-3) repository. | [@pupil-labs](https://github.com/pupil-labs) | 6.0.13 (11/08/26) | - | MIT |
+| ![depth estimation plugin screenshot](./assets/depth_estimation.webp)    | Depth Estimation plugin. The plugin loads a Neon recording and estimates depth using Depth Anything V3 models, specifically the optimized implementation provided by the [Awesome Depth Anything 3](https://github.com/Aedelon/awesome-depth-anything-3) repository. | [@pupil-labs](https://github.com/pupil-labs) | 6.0.13 (11/08/26) | - | MIT |
 
 **Detailed Description:**
 
