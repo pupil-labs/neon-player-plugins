@@ -18,6 +18,7 @@ Neon Player allows you to extend its functionality through Python plugins. This 
 - [Video & External Cameras](#video--external-cameras)
   - [external_camera.py](#external_camerapy)
   - [external_camera_manual_sync.py](#external_camera_manual_syncpy)
+  - [depth_estimation.py](#depth_estimationpy)
 - [Audio Processing](#audio-processing)
   - [transcribe.py](#transcribepy)
 - [Data Integrations & Biometrics](#data-integrations--biometrics)
@@ -55,7 +56,7 @@ A tutorial on generating `.time` files while recording will be published soon. I
 
 Designed for external cameras like GoPros that have been recorded with out syncing. Use the slider to match the external frame with the scene camera. Once matched, press "Generate .time" to create a compatible synced format that can be seamlessly used with the `external_camera.py` plugin.
 
-### [depth-estimation.py](https://github.com/pupil-labs/npp-depth-estimation)
+### [depth_estimation.py](https://github.com/pupil-labs/npp-depth-estimation)
 
 | Screenshot | Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
 |--- |-------:	|--------------------------------------: |--------:	|--------------------:    |--- |
@@ -63,7 +64,8 @@ Designed for external cameras like GoPros that have been recorded with out synci
 
 **Detailed Description:**
 
-Load a Neon recording, enable the plugin, and select your preferred model. The plugin generates a depth map for every scene frame and extracts the depth value at the wearer's exact gaze coordinates (X, Y). Multiple model sizes are available, allowing you to prioritize faster processing speeds or metric depth output based on your project needs.
+Simply load a Neon recording, enable the plugin and select the model of your choice. The plugin will generate a depth map for each scene video frame and will read the depth value at the exact X, Y coordinates of the wearer's gaze. With different model sizes available, you can easily prioritize either faster processing times or metric depth output depending on your project needs.
+
 ## Audio Processing
 
 ### [transcribe.py](https://github.com/pupil-labs/npp-transcribe)
