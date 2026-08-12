@@ -11,7 +11,7 @@ Neon Player allows you to extend its functionality through Python plugins. This 
 - [Neon Player Repo & API](https://github.com/pupil-labs/neon-player-beta?tab=readme-ov-file)
 
 > [!WARNING]
-> Each individual plugin listed in this repository may be subject to its own individual license, as specified by its author in the plugin's source code, documentation, or the `README.md` table. The plugins are given as-is, and Pupil Labs is not responsible for their functionality or support. 
+> Plugins in this repository may be subject to individual licenses set by their authors in the source code, documentation, or README.md table. All plugins are provided "as-is." Pupil Labs assumes no responsibility for their functionality or support.
 
 ## Contents
 
@@ -34,16 +34,16 @@ Neon Player allows you to extend its functionality through Python plugins. This 
 
 ### [external_camera.py](https://github.com/pupil-labs/npp-external-camera)
 
-| Screenshot | Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
-|--- |-------:	|--------------------------------------: |--------:	|--------------------:	|--- |
-| ![external camera plugin screenshot](./assets/external_camera.webp)	| External camera plugin. Loads an external camera video and presents it in sync with the scene. | [@pupil-labs](https://github.com/pupil-labs) | 6.0.13 (24/07/26) | - | MIT |
+| Screenshot |                                                                            Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
+|--- |--------------------------------------------------------------------------------------------------------:|--------------------------------------: |--------:	|--------------------:	|--- |
+| ![external camera plugin screenshot](./assets/external_camera.webp)	| External camera plugin. Loads an external camera video and presents it in sync with Neon's scene video. | [@pupil-labs](https://github.com/pupil-labs) | 6.0.13 (24/07/26) | - | MIT |
 
 **Detailed Description:**
 
 Requires a `.mov` format video with `.time` file that includes timestamps for each frame. Shows the external view in a Picture-in-Picture (PiP) window that can be resized, rotated, moved around, or changed in transparency. Also adds frame scrubbing capabilities, accessible with shortcuts (`Shift + H` / `Shift + L`) and the posibility to dock it to the main window to see it side-by-side with the scene camera.
 
 **Notes:**
-We will publish a tutorial on how to generate the `.time` file while recording. For now, you can use the [external_camera_manual_sync.py](https://github.com/pupil-labs/npp-external-camera-manual-sync) plugin to manually sync your external camera video and generate the `.time` file.
+A tutorial on generating `.time` files while recording will be published soon. In the meantime, use the [external_camera_manual_sync.py](https://github.com/pupil-labs/npp-external-camera-manual-sync) plugin to manually sync your external camera video and generate the file.
 
 ### [external_camera_manual_sync.py](https://github.com/pupil-labs/npp-external-camera-manual-sync)
 
@@ -63,8 +63,7 @@ Designed for external cameras like GoPros that have been recorded with out synci
 
 **Detailed Description:**
 
-Simply load a Neon recording, enable the plugin and select the model of your choice. The plugin will generate a depth map for each scene video frame and will read the depth value at the exact X, Y coordinates of the wearer's gaze. With different model sizes available, you can easily prioritize either faster processing times or metric depth output depending on your project needs.
-
+Load a Neon recording, enable the plugin, and select your preferred model. The plugin generates a depth map for every scene frame and extracts the depth value at the wearer's exact gaze coordinates (X, Y). Multiple model sizes are available, allowing you to prioritize faster processing speeds or metric depth output based on your project needs.
 ## Audio Processing
 
 ### [transcribe.py](https://github.com/pupil-labs/npp-transcribe)
@@ -75,31 +74,29 @@ Simply load a Neon recording, enable the plugin and select the model of your cho
 
 **Detailed Description:**
 
-This plugin also allows event creation on word boundaries (similar to the [Audio Event Annotations](https://docs.pupil-labs.com/alpha-lab/audio-event-annotations/)) but operates fully locally on your machine and directly within Neon Player. It uses Whisper for speech recognition and pyannote.audio for speaker diarization, enabling you to transcribe audio and identify different speakers in your recordings. The plugin generates a subtitle file that can be used for video playback or further analysis.
-
+Similar to [Audio Event Annotations](https://docs.pupil-labs.com/alpha-lab/audio-event-annotations/), this plugin creates events on word boundaries, but operates entirely locally within Neon Player. Powered by Whisper for speech recognition and pyannote.audio for speaker diarization, it transcribes audio, identifies different speakers, and generates subtitle files for video playback or further analysis.
 ## Data Integrations & Biometrics
 
 ### [gps.py](https://github.com/pupil-labs/gps-alpha-lab/tree/main/npp-gps)
 
-| Screenshot | Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
-|--- |-------:	|--------------------------------------: |--------:	|--------------------:	|--- |
-| ![gps plugin screenshot](./assets/gps.webp)	| GPS tracking and visualization plugin. Loads GPS data from Garmin/Polar devices or the Comapanion Device. | [@pupil-labs](https://github.com/pupil-labs) | 6.0.13 (24/07/26) | - | MIT |
+| Screenshot |                                                                                        Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
+|--- |--------------------------------------------------------------------------------------------------------------------:|--------------------------------------: |--------:	|--------------------:	|--- |
+| ![gps plugin screenshot](./assets/gps.webp)	|        GPS tracking and visualization plugin. Loads GPS data from Garmin/Polar devices or the Neon Companion Phone. | [@pupil-labs](https://github.com/pupil-labs) | 6.0.13 (24/07/26) | - | MIT |
 
 **Detailed Description:**
 
-Simply drop it in the recording folder. If you used our [gps-alpha-lab tool](https://docs.pupil-labs.com/alpha-lab/), no need for offset. For 3rd party such as Garmin or Polar, an added time offset bar is available. Features a map visualization with the path taken, events as landmarks on the map, and a minimap with different styles. It also features GPS Kinematics (speed and acceleration) graphs, and if loaded from Garmin, also Heart Rate (HR) and Elevation graphs.
-
+Drop the file into your recording folder. If you used our [gps-alpha-lab tool](https://docs.pupil-labs.com/alpha-lab/), no offset is needed. For third-party devices such as Garmin or Polar, a time offset control is available to align data. The plugin provides an interactive map visualization showing the traveled path, events as landmarks, and a customizable minimap. It also includes GPS kinematics graphs (speed and acceleration), along with Heart Rate (HR) and Elevation graphs when loading Garmin data.
 ## Cloud & Synchronization
 
 ### [cloud_events.py](https://github.com/pupil-labs/npp-cloud-events)
 
-| Screenshot | Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
-|--- |-------:	|--------------------------------------: |--------:	|--------------------:	|--- |
-| ![cloud-events plugin screenshot](./assets/cloud_events.webp)	| Cloud events plugin, allows to pull, push and compare events. | [@pupil-labs](https://github.com/pupil-labs) | 6.0.13 (24/07/26) | - | MIT |
+| Screenshot |                                                                  Brief description / Comments | Author | Date/Version last tested | Link (if external) | License |
+|--- |----------------------------------------------------------------------------------------------:|--------------------------------------: |--------:	|--------------------:	|--- |
+| ![cloud-events plugin screenshot](./assets/cloud_events.webp)	| Pupil Cloud events plugin. Pull, push and compare events between Neon Player and Pupil Cloud. | [@pupil-labs](https://github.com/pupil-labs) | 6.0.13 (24/07/26) | - | MIT |
 
 **Detailed Description:**
 
-Easily synchronize and manage your events with the cloud, enabling seamless pushing, pulling, and comparison of event data directly within the player.
+Synchronize and manage events between Neon Player and Pupil Cloud. This plugin allows you to push, pull, and compare event data directly within Neon Player to keep your recordings aligned across both platforms.
 
 ## Contributing
 
@@ -107,6 +104,4 @@ Contributions are very welcome! Please read the [contribution guidelines](CONTRI
 
 ## License
 
-This repository's documentation and structure are licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-**Note:** Each individual plugin may be subject to its own license, as specified in its respective table entry or source code.
+The repository structure and documentation are licensed under the [MIT License](LICENSE.md). Individual plugins may be subject to separate licenses as noted in their respective source code or table entries.
