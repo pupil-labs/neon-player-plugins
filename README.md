@@ -64,7 +64,7 @@ Designed for external cameras like GoPros that have been recorded with out synci
 
 **Detailed Description:**
 
-Simply load a Neon recording, enable the plugin and select the model of your choice. The plugin will generate a depth map for each scene video frame and will read the depth value at the exact X, Y coordinates of the wearer's gaze. With different model sizes available, you can easily prioritize either faster processing times or metric depth output depending on your project needs.
+Load a Neon recording, enable the plugin, and select your preferred model. The plugin generates a depth map for every scene frame and extracts the depth value at the wearer's exact gaze coordinates (X, Y). Multiple model sizes are available, allowing you to prioritize faster processing speeds or metric depth output based on your project needs. For further details see the [Alpha Lab article](https://docs.pupil-labs.com/alpha-lab/depth-estimation/).
 
 ## Audio Processing
 
@@ -76,7 +76,8 @@ Simply load a Neon recording, enable the plugin and select the model of your cho
 
 **Detailed Description:**
 
-Similar to [Audio Event Annotations](https://docs.pupil-labs.com/alpha-lab/audio-event-annotations/), this plugin creates events on word boundaries, but operates entirely locally within Neon Player. Powered by Whisper for speech recognition and pyannote.audio for speaker diarization, it transcribes audio, identifies different speakers, and generates subtitle files for video playback or further analysis.
+Similar to [Audio Event Annotations](https://docs.pupil-labs.com/alpha-lab/audio-event-annotations/) article on our Alpha Lab, this plugin creates events on word boundaries, but operates entirely locally within Neon Player. Powered by Whisper for speech recognition and pyannote.audio for speaker diarization, it transcribes audio, identifies different speakers, and generates subtitle files for video playback or further analysis.
+
 ## Data Integrations & Biometrics
 
 ### [gps.py](https://github.com/pupil-labs/gps-alpha-lab/tree/main/npp-gps)
@@ -87,7 +88,7 @@ Similar to [Audio Event Annotations](https://docs.pupil-labs.com/alpha-lab/audio
 
 **Detailed Description:**
 
-Drop the file into your recording folder. If you used our [gps-alpha-lab tool](https://docs.pupil-labs.com/alpha-lab/), no offset is needed. For third-party devices such as Garmin or Polar, a time offset control is available to align data. The plugin provides an interactive map visualization showing the traveled path, events as landmarks, and a customizable minimap. It also includes GPS kinematics graphs (speed and acceleration), along with Heart Rate (HR) and Elevation graphs when loading Garmin data.
+Drop the file into your recording folder. If you used our Alpha Lab's [gps tool](https://docs.pupil-labs.com/alpha-lab/gps), no offset is needed. For third-party devices such as Garmin or Polar, a time offset control is available to align data. The plugin provides an interactive map visualization showing the traveled path, events as landmarks, and a customizable minimap. It also includes GPS kinematics graphs (speed and acceleration), along with Heart Rate (HR) and Elevation graphs when loading Garmin data.
 ## Cloud & Synchronization
 
 ### [cloud_events.py](https://github.com/pupil-labs/npp-cloud-events)
