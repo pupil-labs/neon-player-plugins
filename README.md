@@ -8,7 +8,7 @@ Neon Player allows you to extend its functionality through Python plugins. This 
 > Check out how to [install them](https://docs.pupil-labs.com/neon/neon-player/plugin-api/) or [create them](https://docs.pupil-labs.com/neon/neon-player/develop-your-own-plugin/).
 
 
-- [Neon Player Repo & API](https://github.com/pupil-labs/neon-player-beta?tab=readme-ov-file)
+- [Neon Player Repo & API](https://github.com/pupil-labs/neon-player-beta?tab=readme-ov-file) | [Plugin API](https://pupil-labs.github.io/neon-player/dev/api/plugin/) | [Demo Plugin](https://github.com/pupil-labs/neon-player/blob/main/examples/plugins/demo_widgets.py)
 
 > [!WARNING]
 > Plugins in this repository may be subject to individual licenses set by their authors in the source code, documentation, or README.md table. All plugins are provided "as-is." Pupil Labs assumes no responsibility for their functionality or support.
